@@ -1,7 +1,7 @@
 import numpy as np
 
 
-
+# img = np.random.random((3,3,3))
 img = [[[ 0  0  0]
         [ 0  1  0 ]
         [ 0  0  0]]
@@ -30,5 +30,6 @@ for i in img:    # RGB
                     g = {around_g}
                     segment.append(g)
                 else:
+                    g = new_num    # newest_num
                     segment.append(g)
   
